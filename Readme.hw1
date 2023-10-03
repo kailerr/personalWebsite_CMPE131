@@ -1,0 +1,17 @@
+This website includes my self-introduction with a video and picture of me.
+Also, there's a drop-down box that has 2 projects from school that I've 
+created/participated in. The first is a wind turbine and its ability
+to generate energy. The second project was my final assignment for 
+ENG10, where I was tasked to code and build a fully functional robot. 
+Lastly, the main part of this website is the transcript and its 
+information, which includes my GPA and other information.
+However, this is locked behind a hardcoded password. 
+
+
+1) The transcript is linked in the hyperlink displayed on the bottom of the screen in purple.
+Once the site is changed, enter the password "frankbutt" into the empty textbox. After
+entering the password and clicking the submit button, a copy of my unofficial transcript should display
+my grades, credits, and GPA.
+
+2)There's a drop-down box containing 2 school projects that I've completed. Just click on whichever one and it should
+redirect to another html file containing visuals and descriptions about that project.

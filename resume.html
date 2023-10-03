@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>
+        Welcome to my webpage!
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<h1>Introduction</h1>
+<br>
+
+<body>
+    <p>
+    Hi! I'm Kailer and I'm a 2nd yearsoftware engineering major at SJSU.
+     Welcome to my website and the beginning of my journey 
+    in CMPE 131. This website has some key features, including a photo, 
+    video, password-locked transcript, and a drop-down box 
+    with 2 school projects. Note that the password for the
+    transcript is "frankbutt". Please watch the video below for more information about me.
+    </p>
+
+    <br>
+
+    <div class="row">
+        <div class="column">
+            <img class="imagesize" src="pic.jpeg"/> 
+        </div>
+        <div class="column">
+          <img class="meow" src="cat.jpeg" /> 
+        </div>
+        
+      </div>
+    
+
+    <h2 style="font-size: 40px;">Video Intro:</h2>
+    <video class="video" width="400" height="340" controls>
+        <source src="introduction.mp4" type="video/mp4">
+    </video>
+
+
+    <br>
+    <br>
+    <a href="Transcript.html" style="font-size: 40px;" >Link to Transcript</a>
+    <br>
+
+    <br>
+    <br>
+
+    <form name="myForm">
+        <select name="project" onchange="redirect()">
+            <option value=""> Select a project</option>
+            <option value="prj1.html"> Project 1</option>
+            <option value="prj2.html"> Project 2</option>
+        </select>
+
+        <br>
+
+    </form>
+</body>
+<br>
+<script src="script.js"></script>
+
+</html>
